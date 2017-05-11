@@ -2,15 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <!-- Adjust the layout to the viewport device -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This portafolio is about all my work as a web developer">
     <meta name="author" content="Miguelo Malpartida">
     <title>Cameron Pittman: Portfolio</title>
-    <!-- media attribute and minified css for avoid rendering blocking -->
-    <link href="css/print.css" rel="stylesheet" media="print">
-    <!--Inline styles  -->
-    <style media="screen">
+    <style>
+
   /* latin */
   @font-face {
     font-family: 'Open Sans';
@@ -78,7 +75,7 @@
       header p { padding-left: 4.5em;}
     }
     </style>
-
+    <link href="css/print.css" rel="stylesheet" media="print">
   </head>
 
   <body>
@@ -124,15 +121,15 @@
         <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
       </footer>
     </div>
-    <!-- inline JS -->
     <script>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
+
       // Optional TODO: replace with your Google Analytics profile ID.
       ga('create', 'UA-XXXX-Y');
       ga('send', 'pageview');
     </script>
-    <!-- Async Atribbute for avoid JS blocking  -->
+    <script async src="http://www.google-analytics.com/analytics.js"></script>
     <script async src="js/perfmatters.js"></script>
 
   </body>
